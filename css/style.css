@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+:root{
+    --primary-font:futura;
+}
+/* page1 starts */
+
+#page1 {
+width: 100%;    
+min-height: 100vh; 
+position: relative;
+padding: 0 1vw;
+padding-top: 17vh;
+}
+
+#page1 h2{
+    font-size: 16.2vw;
+    text-transform: uppercase;
+    font-family:var(--primary-font);
+    line-height: 13.2vw;
+    letter-spacing: -11px;
+}
+
+#video-container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 1vw;
+    position: relative;
+}
+
+#video-container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#video-container #play{
+  background-color: #000;
+  color: #fff;
+  font-size: 1vw;
+  padding: 2.7vw  2.3vw;
+  border-radius: 50%;
+  text-transform: uppercase;
+  position: fixed;
+  font-family: var(--primary-font);
+  opacity: 0;
+  scale: 0;
+}
+
+
